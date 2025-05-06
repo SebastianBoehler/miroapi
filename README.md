@@ -2,6 +2,8 @@
 
 **miroapi** is a Node.js library that extends and automates Miro, Thinkific, and Jira operations by thinly wrapping their web interfaces and REST APIs. It provides high-level features beyond the official Miro API, such as board backups, project management, team administration, and more.
 
+**Note:** This is one of my earliest coding projects; some code is years old and may be broken by now.
+
 ## Installation
 
 ```bash
@@ -66,4 +68,4 @@ Open issues or submit pull requests. Remove dead code when replacing features an
 
 ## License
 
-ISC © Sebastian Boehler
+ISC Sebastian Boehler

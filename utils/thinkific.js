@@ -1,11 +1,11 @@
 const fetch = require('node-fetch')
 
 class ThinkificAPI {
-    constructor(key) {
+    constructor(key, subdomain) {
         this.key = key
         this.headers = {
             'X-Auth-API-Key': this.key,
-            'X-Auth-Subdomain': 'remotly',
+            'X-Auth-Subdomain': subdomain,
             'Content-Type': 'application/json'
         }
     };
