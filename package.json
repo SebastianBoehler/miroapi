@@ -1,14 +1,39 @@
 {
   "name": "miroapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Thin Node.js wrappers around Miro, Thinkific, Jira, and Conceptboard APIs and web flows.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "validate": "node scripts/validate.js",
+    "test": "npm run validate"
   },
   "author": "Sebastian Boehler",
-  "license": "ISC",
+  "license": "MIT",
+  "keywords": [
+    "miro",
+    "jira",
+    "thinkific",
+    "conceptboard",
+    "automation",
+    "integration"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianBoehler/miroapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SebastianBoehler/miroapi/issues"
+  },
+  "homepage": "https://github.com/SebastianBoehler/miroapi#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.js",
+    "utils",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
